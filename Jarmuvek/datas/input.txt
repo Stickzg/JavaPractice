@@ -1,0 +1,4 @@
+Kerekpar;20;
+Kerekpar;5;
+Gepkocsi;500;120;
+Gepkocsi;1000;140;

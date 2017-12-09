@@ -1,0 +1,12 @@
+2
+Kutya Buksi Macska Cirmi
+1;megetet;
+0;megsimogat;
+1;megetet;
+1;megetet;
+1;megetet;
+1;megsimogat;
+1;megsimogat;
+1;megsimogat;
+1;megsimogat;
+1;megsimogat;

@@ -1,0 +1,4 @@
+3
+Terminátor;kétnapos;16;
+Mátrix;egynapos;16;
+Evulúciós_folyamatok_elsősökszámára;korlátlan;

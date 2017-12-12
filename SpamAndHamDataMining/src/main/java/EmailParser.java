@@ -13,14 +13,14 @@ public class EmailParser {
 
         if (list == null) return;
 
-        for ( File f : list ) {
-            if ( f.isDirectory() ) {
-                walk( f.getAbsolutePath() );
-                System.out.println( "Dir:" + f.getAbsoluteFile() );
+        for ( File file : list ) {
+            if ( file.isDirectory() ) {
+                walk( file.getAbsolutePath() );
+                System.out.println( "Dir:" + file.getAbsoluteFile() );
             }
             else {
-                if ( f.getAbsoluteFile().getPath().endsWith(".eml")) {
-                    System.out.println("File:" + f.getAbsoluteFile());
+                if ( file.getAbsoluteFile().getPath().endsWith(".eml")) {
+                    System.out.println("File:" + file.getAbsoluteFile());
                 } else System.out.println("Not an email file");
             }
         }
